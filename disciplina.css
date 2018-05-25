@@ -1,0 +1,68 @@
+*{
+    //border: black solid 1px;
+}
+
+body{
+    font-family: "Comic Sans MS";
+}
+
+#title_disciplina{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    overflow: auto;
+
+    //background-color: #FFFF00;
+}
+#title_disciplina h1{
+    color: red;
+    font-size: 75px;
+    font-weight: bolder;
+    font-family: "Comic Sans MS";
+}
+
+#menu_disciplina{
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+#menu_disciplina ul{
+    list-style-type: none;
+    margin-bottom: 2em;
+}
+
+#menu_disciplina ul li{
+    text-align: center;
+    margin: 2em;
+    display: inline;
+}
+
+#menu_disciplina ul li :hover{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: yellow;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
