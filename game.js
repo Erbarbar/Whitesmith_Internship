@@ -14,8 +14,12 @@ function main(){
     console.log(course);
 
 
-    var questions = JSON.stringify("perguntas.json");
-    console.log(questions);
+    var questionsString = JSON.stringify(perguntas);
+	var questionsParse = JSON.parse(questionsString)
+    switch(year){
+		
+		
+	}
 
 } // main
 
