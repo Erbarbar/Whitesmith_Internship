@@ -40,7 +40,7 @@ body{
     background-color: red;
 }
 
-#answers{
+#tabela{
     position: relative;
     background-color: #eee;
     width: 90%;
@@ -48,12 +48,12 @@ body{
     height: 10em;
 }
 
-#answers tr{
+#tabela tr{
     margin-bottom: 2em;
     //background-color: green;
 }
 /*
-#answers tr td{
+#tabela tr td{
     border: solid black 1px;
     border-radius: 0.2em;
     width: 42em;
@@ -62,31 +62,39 @@ body{
     background-color: #ccc;
 }
 */
-#answers tr td{
+#tabela tr td{
     padding: 1em;
     width: 45%;
 }
 
-#answers tr td link0{
+#tabela tr td link0{
     background-color: gray;
     padding: 1em;
 }
-#answers tr td link0 a{
+#tabela tr td link0 a{
     background-color: gray;
     padding: 1em;
 }
 
-#answers tr td link0 :hover{
+#tabela tr td link0 :hover{
     /cursor: pointer;
 }
 
-#answers tr td link1 a{
+#tabela tr td link1 a{
 }
 
-#answers tr td link2{
+#tabela tr td link2{
 }
 
-#answers tr td link3{
+#tabela tr td link3{
+}
+
+#hidden{
+    display: none;
+    position: absolute;
+    width: 60%;
+    height: 60%;
+
 }
 
 #menu_button{
