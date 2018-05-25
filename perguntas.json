@@ -1,0 +1,158 @@
+{   
+    "year_10": {
+        "fisica": [
+            {
+                "question_text": "Qual é a resposta?",
+                "correct_answer": "42",
+                "wrong_answer1": "0",
+                "wrong_answer2": "1",
+                "wrong_answer3": "Nenhuma as anteriores"
+            },
+            {
+                "question_text": "Qual é a resposta?",
+                "correct_answer": "42",
+                "wrong_answer1": "0",
+                "wrong_answer2": "1",
+                "wrong_answer3": "Nenhuma as anteriores"
+            }
+        ],
+
+        "biologia": [
+            {
+                "question_text": "Qual é a resposta?",
+                "correct_answer": "42",
+                "wrong_answer1": "0",
+                "wrong_answer2": "1",
+                "wrong_answer3": "Nenhuma as anteriores"
+            },
+            {
+                "question_text": "Qual é a resposta?",
+                "correct_answer": "42",
+                "wrong_answer1": "0",
+                "wrong_answer2": "1",
+                "wrong_answer3": "Nenhuma as anteriores"
+            }
+        ],
+        
+        "matematica": [
+            {
+                "question_text": "Qual é a resposta?",
+                "correct_answer": "42",
+                "wrong_answer1": "0",
+                "wrong_answer2": "1",
+                "wrong_answer3": "Nenhuma as anteriores"
+            },
+            {
+                "question_text": "Qual é a resposta?",
+                "correct_answer": "42",
+                "wrong_answer1": "0",
+                "wrong_answer2": "1",
+                "wrong_answer3": "Nenhuma as anteriores"
+            }
+        ]
+    },
+    "year_11": {
+        "fisica": [
+            {
+                "question_text": "Qual é a resposta?",
+                "correct_answer": "42",
+                "wrong_answer1": "0",
+                "wrong_answer2": "1",
+                "wrong_answer3": "Nenhuma as anteriores"
+            },
+            {
+                "question_text": "Qual é a resposta?",
+                "correct_answer": "42",
+                "wrong_answer1": "0",
+                "wrong_answer2": "1",
+                "wrong_answer3": "Nenhuma as anteriores"
+            }
+        ],
+        
+        "biologia": [
+            {
+                "question_text": "Qual é a resposta?",
+                "correct_answer": "42",
+                "wrong_answer1": "0",
+                "wrong_answer2": "1",
+                "wrong_answer3": "Nenhuma as anteriores"
+            },
+            {
+                "question_text": "Qual é a resposta?",
+                "correct_answer": "42",
+                "wrong_answer1": "0",
+                "wrong_answer2": "1",
+                "wrong_answer3": "Nenhuma as anteriores"
+            }
+        ],
+        
+        "matematica": [
+            {
+                "question_text": "Qual é a resposta?",
+                "correct_answer": "42",
+                "wrong_answer1": "0",
+                "wrong_answer2": "1",
+                "wrong_answer3": "Nenhuma as anteriores"
+            },
+            {
+                "question_text": "Qual é a resposta?",
+                "correct_answer": "42",
+                "wrong_answer1": "0",
+                "wrong_answer2": "1",
+                "wrong_answer3": "Nenhuma as anteriores"
+            }
+        ]
+    },
+    "year_12": {
+        "fisica": [
+            {
+                "question_text": "Qual é a resposta?",
+                "correct_answer": "42",
+                "wrong_answer1": "0",
+                "wrong_answer2": "1",
+                "wrong_answer3": "Nenhuma as anteriores"
+            },
+            {
+                "question_text": "Qual é a resposta?",
+                "correct_answer": "42",
+                "wrong_answer1": "0",
+                "wrong_answer2": "1",
+                "wrong_answer3": "Nenhuma as anteriores"
+            }
+        ],
+        
+        "biologia": [
+            {
+                "question_text": "Qual é a resposta?",
+                "correct_answer": "42",
+                "wrong_answer1": "0",
+                "wrong_answer2": "1",
+                "wrong_answer3": "Nenhuma as anteriores"
+            },
+            {
+                "question_text": "Qual é a resposta?",
+                "correct_answer": "42",
+                "wrong_answer1": "0",
+                "wrong_answer2": "1",
+                "wrong_answer3": "Nenhuma as anteriores"
+            }
+        ],
+        
+        "matematica": [
+            {
+                "question_text": "Qual é a resposta?",
+                "correct_answer": "42",
+                "wrong_answer1": "0",
+                "wrong_answer2": "1",
+                "wrong_answer3": "Nenhuma as anteriores"
+            },
+            {
+                "question_text": "Qual é a resposta?",
+                "correct_answer": "42",
+                "wrong_answer1": "0",
+                "wrong_answer2": "1",
+                "wrong_answer3": "Nenhuma as anteriores"
+            }
+        ]
+    }
+}

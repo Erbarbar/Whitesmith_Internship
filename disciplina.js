@@ -5,7 +5,6 @@
 
 function main(){
     var ano = queryString("year");
-    console.log("fim da query");
 
 
 
@@ -43,7 +42,6 @@ function queryString(parameter){
             param_value = params[i].substring(params[i].indexOf("=")+1);
         }
     }
-    console.log(param_value);
     if(param_value)
         return param_value;
     else
