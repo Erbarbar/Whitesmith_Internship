@@ -28,7 +28,11 @@ body{
     margin-top: 2em; 
     width: 15em;
     height: 15em;
-    background-color: green;
+}
+
+#player img{
+    width:20em;
+    margin-top: -5em;
 }
 
 #boss{
@@ -37,7 +41,12 @@ body{
     margin-top: -40em; 
     width: 30em;
     height: 30em;
-    background-color: red;
+}
+
+#boss img{
+    margin-left:-5em;
+    width:40em;
+    margin-top: -5em;
 }
 
 #tabela{
@@ -65,28 +74,7 @@ body{
 #tabela tr td{
     padding: 1em;
     width: 45%;
-}
 
-#tabela tr td link0{
-    background-color: gray;
-    padding: 1em;
-}
-#tabela tr td link0 a{
-    background-color: gray;
-    padding: 1em;
-}
-
-#tabela tr td link0 :hover{
-    /cursor: pointer;
-}
-
-#tabela tr td link1 a{
-}
-
-#tabela tr td link2{
-}
-
-#tabela tr td link3{
 }
 
 #hidden{
