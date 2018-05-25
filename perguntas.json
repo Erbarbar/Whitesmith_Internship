@@ -33,18 +33,32 @@ perguntas = {
 
         "biologia": [
             {
-                "question_text": "Qual é a resposta?",
-                "correct_answer": "42",
-                "wrong_answer1": "0",
-                "wrong_answer2": "1",
-                "wrong_answer3": "Nenhuma as anteriores"
+                "question_text": "Qual é o maior osso do corpo humano?",
+                "correct_answer": "Fémur",
+                "wrong_answer1": "Tibia",
+                "wrong_answer2": "Esterno",
+                "wrong_answer3": "Cubito"
             },
             {
-                "question_text": "Qual é a resposta?",
-                "correct_answer": "42",
-                "wrong_answer1": "0",
-                "wrong_answer2": "1",
+                "question_text": "Qual é o reino pertencente às bactérias?",
+                "correct_answer": "Reino Monera",
+                "wrong_answer1": "Reino Protista",
+                "wrong_answer2": "Reino Fungi",
                 "wrong_answer3": "Nenhuma as anteriores"
+            },
+			{
+                "question_text": "A segunda Lei de Mendel refere-se à:",
+                "correct_answer": "Segregação Independente",
+                "wrong_answer1": "Distribuição Conjugada dos genes",
+                "wrong_answer2": "Troca de partes entre cromossomas",
+                "wrong_answer3": "Nenhuma as anteriores"
+            },
+			{
+                "question_text": "Geralmente, quantos cromossomas tem a espécie humana?",
+                "correct_answer": "46",
+                "wrong_answer1": "23",
+                "wrong_answer2": "44",
+                "wrong_answer3": "22"
             }
         ],
         
@@ -113,18 +127,32 @@ perguntas = {
         
         "biologia": [
             {
-                "question_text": "Qual é a resposta?",
-                "correct_answer": "42",
-                "wrong_answer1": "0",
-                "wrong_answer2": "1",
-                "wrong_answer3": "Nenhuma as anteriores"
+                "question_text": "Qual é o maior osso do corpo humano?",
+                "correct_answer": "Fémur",
+                "wrong_answer1": "Tibia",
+                "wrong_answer2": "Esterno",
+                "wrong_answer3": "Cubito"
             },
             {
-                "question_text": "Qual é a resposta?",
-                "correct_answer": "42",
-                "wrong_answer1": "0",
-                "wrong_answer2": "1",
+                "question_text": "Qual é o reino pertencente às bactérias?",
+                "correct_answer": "Reino Monera",
+                "wrong_answer1": "Reino Protista",
+                "wrong_answer2": "Reino Fungi",
                 "wrong_answer3": "Nenhuma as anteriores"
+            },
+			{
+                "question_text": "A segunda Lei de Mendel refere-se à:",
+                "correct_answer": "Segregação Independente",
+                "wrong_answer1": "Distribuição Conjugada dos genes",
+                "wrong_answer2": "Troca de partes entre cromossomas",
+                "wrong_answer3": "Nenhuma as anteriores"
+            },
+			{
+                "question_text": "Geralmente, quantos cromossomas tem a espécie humana?",
+                "correct_answer": "46",
+                "wrong_answer1": "23",
+                "wrong_answer2": "44",
+                "wrong_answer3": "22"
             }
         ],
         
@@ -193,18 +221,32 @@ perguntas = {
         
         "biologia": [
             {
-                "question_text": "Qual é a resposta?",
-                "correct_answer": "42",
-                "wrong_answer1": "0",
-                "wrong_answer2": "1",
-                "wrong_answer3": "Nenhuma as anteriores"
+                "question_text": "Qual é o maior osso do corpo humano?",
+                "correct_answer": "Fémur",
+                "wrong_answer1": "Tibia",
+                "wrong_answer2": "Esterno",
+                "wrong_answer3": "Cubito"
             },
             {
-                "question_text": "Qual é a resposta?",
-                "correct_answer": "42",
-                "wrong_answer1": "0",
-                "wrong_answer2": "1",
+                "question_text": "Qual é o reino pertencente às bactérias?",
+                "correct_answer": "Reino Monera",
+                "wrong_answer1": "Reino Protista",
+                "wrong_answer2": "Reino Fungi",
                 "wrong_answer3": "Nenhuma as anteriores"
+            },
+			{
+                "question_text": "A segunda Lei de Mendel refere-se à:",
+                "correct_answer": "Segregação Independente",
+                "wrong_answer1": "Distribuição Conjugada dos genes",
+                "wrong_answer2": "Troca de partes entre cromossomas",
+                "wrong_answer3": "Nenhuma as anteriores"
+            },
+			{
+                "question_text": "Geralmente, quantos cromossomas tem a espécie humana?",
+                "correct_answer": "46",
+                "wrong_answer1": "23",
+                "wrong_answer2": "44",
+                "wrong_answer3": "22"
             }
         ],
         
