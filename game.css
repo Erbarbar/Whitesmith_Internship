@@ -80,8 +80,16 @@ body{
 #hidden{
     display: none;
     position: absolute;
-    width: 60%;
-    height: 60%;
+    width: 90%;
+    height: 80%;
+    text-align: center;
+    padding-top: 5em;
+    opacity: 0.9;
+    margin-top: -30em;
+    margin-left: 5em;
+    background-color: gray;
+
+    z-index: 2;
 
 }
 
@@ -92,6 +100,7 @@ body{
     font-weight: bold;
 
 }
+
 
 a{
     text-decoration: none;
