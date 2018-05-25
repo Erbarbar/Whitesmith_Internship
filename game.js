@@ -5,12 +5,14 @@
 
 var year,course,questions,usedQuestions = [];
 var atualQuestion,colunas = [];
+var locked = false;
 
 
 
 function main(){
 	getDataURL();
-	document.getElementById("liveplayer").innerHTML = 3
+	document.getElementById("liveplayer").innerHTML = 1;
+	document.getElementById("liveboss").innerHTML = 3;
 	console.log("Questoes = " + questions.length);
 	var option = Math.round(Math.random()*questions.length)
 	showQuestions(0);
@@ -64,31 +66,91 @@ function showQuestions(option){
     }
 	var evt = function(ev){
 		var option;
-		console.log("id = " + ev.target.id);
-		console.log("teste = " + ev.target.innerHTML);
-		console.log("resposta correta = " + questions[atualQuestion]['correct_answer'])
-        if(ev.target.innerHTML == questions[atualQuestion]['correct_answer']){
-			if(verifyAllQuestions()){
-				option =  Math.round(Math.random() * questions.length) - 1;
-				do{
-					option+=1
-					if(option%questions.length==0)
-						option = 0;
-					console.log("option = " + option);
+		if(!locked){
+			locked = true;
 
-				}while(usedQuestions[option] == true);
+			console.log("id = " + ev.target.id);
+			console.log("teste = " + ev.target.innerHTML);
+			console.log("resposta correta = " + questions[atualQuestion]['correct_answer'])
+			if(ev.target.innerHTML == questions[atualQuestion]['correct_answer']){
 				colunas[ev.target.id].style.background = "#00ff00 ";
-				setTimeout(function(){ showQuestions(option);},10000);
-				
-			}else{
-				console.log("Não há mais perguntas");
-				
-			}
-		}else{
-			lives = document.getElementById("liveplayer").textContent
-			document.getElementById("liveplayer").innerHTML = lives -1;
-			colunas[ev.target.id].style.background = "#ff0000 ";
+				if(verifyLives(2)){
+					if(verifyAllQuestions()){
+						option =  Math.round(Math.random() * questions.length) - 1;
+						do{
+							option+=1
+							if(option%questions.length==0)
+								option = 0;
+							console.log("option = " + option);
 
+						}while(usedQuestions[option] == true);
+						setTimeout(function(){ 		lives = document.getElementById("liveboss").textContent
+					document.getElementById("liveboss").innerHTML = lives -1;
+					locked = false; showQuestions(option);},1000);
+						
+					}else{
+						console.log("Não há mais perguntas");
+						setAllNotUsed(usedQuestions);
+						option =  Math.round(Math.random() * questions.length) - 1;
+						do{
+							option+=1
+							if(option%questions.length==0)
+								option = 0;
+							console.log("option = " + option);
+
+						}while(usedQuestions[option] == true);
+						setTimeout(function(){ 		lives = document.getElementById("liveboss").textContent
+					document.getElementById("liveboss").innerHTML = lives -1;
+					locked = false; showQuestions(option);},1000);
+						
+						
+					}
+				}else{
+					document.getElementById("hiddenT").innerHTML = "Well, well, well! We have a Einstein here";
+					document.getElementById("question1").innerHTML = "";
+					document.getElementById("tabela").innerHTML = "";
+				}
+			}else{
+				colunas[ev.target.id].style.background = "#ff0000 ";
+				if(verifyLives(1)){
+					if(verifyAllQuestions()){
+						option =  Math.round(Math.random() * questions.length) - 1;
+						do{
+							option+=1
+							if(option%questions.length==0)
+								option = 0;
+							console.log("option = " + option);
+
+						}while(usedQuestions[option] == true);
+						setTimeout(function(){ lives = document.getElementById("liveplayer").textContent
+						document.getElementById("liveplayer").innerHTML = lives -1;
+						locked = false;showQuestions(option);},1000);				
+					
+					}else{
+						console.log("Não há mais perguntas");
+						setAllNotUsed(usedQuestions);
+						option =  Math.round(Math.random() * questions.length) - 1;
+						do{
+							option+=1
+							if(option%questions.length==0)
+								option = 0;
+							console.log("option = " + option);
+
+						}while(usedQuestions[option] == true);
+						setTimeout(function(){ lives = document.getElementById("liveplayer").textContent
+						document.getElementById("liveplayer").innerHTML = lives -1;
+						locked = false;showQuestions(option);},1000);
+					}
+				}else{
+					document.getElementById("hiddenT").innerHTML = "Today is not your day! You lose";
+					document.getElementById("question1").innerHTML = "";
+					document.getElementById("tabela").innerHTML = "";
+					
+					//setTimeout(function(){ 
+					//locked = false; window.location = "homepage.html";},3000);
+				}
+
+			}
 		}
 			
     }
@@ -98,6 +160,21 @@ function showQuestions(option){
 	}
     tabela.appendChild(tbody);
 	
+	
+}
+function verifyLives(option){ //option = 1 ->player; option = 2 ->boss
+	if(option == 1){
+		lives = document.getElementById("liveplayer").textContent
+		if(lives == 0)
+			return false;
+	}else{
+		lives = document.getElementById("liveboss").textContent
+		if(lives == 1)
+			return false;
+	}
+	return true;
+			
+
 	
 }
 function verifyAllQuestions(){
@@ -135,7 +212,11 @@ function queryString(parameter){
     else
         return 0;
 }
-
+function setAllNotUsed(array){
+	for(var i=0;i<array.length;i++){
+		array[i] = false;
+	}
+}
 function shuffleArray(array){
 	var i;
 	var aux = [false,false,false,false];

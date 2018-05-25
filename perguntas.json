@@ -2,18 +2,32 @@ perguntas = {
     "year_10": {
         "fisica": [
             {
-                "question_text": "Qual é a resposta?",
-                "correct_answer": "42",
-                "wrong_answer1": "0",
-                "wrong_answer2": "1",
-                "wrong_answer3": "Nenhuma as anteriores"
+                "question_text": "Qual é a altura do CEO da Whitesmith?",
+                "correct_answer": "Nenhuma das opções anteriores",
+                "wrong_answer1": "1.42m",
+                "wrong_answer2": "1.38m",
+                "wrong_answer3": "1.27m"
             },
             {
-                "question_text": "Qual é a resposta?22",
-                "correct_answer": "42",
-                "wrong_answer1": "0",
-                "wrong_answer2": "1",
-                "wrong_answer3": "Nenhuma as anteriores"
+                "question_text": "Quais as unidades de medida utilizadas para medir calor?",
+                "correct_answer": "Celsius e Joule",
+                "wrong_answer1": "Kcal e Joule",
+                "wrong_answer2": "Celsius e calorias",
+                "wrong_answer3": "Calorias e Joule"
+            },
+			{
+                "question_text": "Qual o nome do processo de transmissão de calor por contacto direto?",
+                "correct_answer": "Condução",
+                "wrong_answer1": "Translação",
+                "wrong_answer2": "Combustão",
+                "wrong_answer3": "Convecção"
+            },
+			{
+                "question_text": "Um pedaço de tecido vermelho, quando observado numa sala iluminada com luz verde, parece:",
+                "correct_answer": "Amarelo",
+                "wrong_answer1": "Preto",
+                "wrong_answer2": "Azul",
+                "wrong_answer3": "Vermelho"
             }
         ],
 
@@ -36,36 +50,64 @@ perguntas = {
         
         "matematica": [
             {
-                "question_text": "Qual é a resposta?",
-                "correct_answer": "42",
-                "wrong_answer1": "0",
-                "wrong_answer2": "1",
-                "wrong_answer3": "Nenhuma as anteriores"
+                "question_text": "Quatro pessoas candidataram-se ao estágio de verão da Whitesmith. Se a empresa não gostar de nenhum, quantos estagiários conseguirão o lugar?",
+                "correct_answer": "0",
+                "wrong_answer1": "1",
+                "wrong_answer2": "4",
+                "wrong_answer3": "Nenhuma das anteriores"
             },
             {
-                "question_text": "Qual é a resposta?",
-                "correct_answer": "42",
-                "wrong_answer1": "0",
+                "question_text": "Se dividirem o número de sofás do office da Whitesmith por 2. Qual é o resultado?",
+                "correct_answer": "O office não tem sofás",
+                "wrong_answer1": "3",
                 "wrong_answer2": "1",
-                "wrong_answer3": "Nenhuma as anteriores"
+                "wrong_answer3": "Não me façam contar todos os sofás"
+            },
+			{
+                "question_text": "(Lógica) Se usares Comic Sans MS, o que é mais provável de acontecer?",
+                "correct_answer": "Ser gozado pelos designers",
+                "wrong_answer1": "Ser bem sucedido",
+                "wrong_answer2": "Não sei, ninguém vai notar",
+                "wrong_answer3": "Esta opção é errada!"
+            },
+			{
+                "question_text": "Quantas cadeiras vermelhas estão na sala onde te encontras?",
+                "correct_answer": "7",
+                "wrong_answer1": "3",
+                "wrong_answer2": "1",
+                "wrong_answer3": "Não há cadeiras vermelhas"
             }
         ]
     },
     "year_11": {
         "fisica": [
-            {
-                "question_text": "Qual é a resposta?",
-                "correct_answer": "42",
-                "wrong_answer1": "0",
-                "wrong_answer2": "1",
-                "wrong_answer3": "Nenhuma as anteriores"
+                        {
+                "question_text": "Qual é a altura do CEO da Whitesmith?",
+                "correct_answer": "Nenhuma das opções anteriores",
+                "wrong_answer1": "1.42m",
+                "wrong_answer2": "1.38m",
+                "wrong_answer3": "1.27m"
             },
             {
-                "question_text": "Qual é a resposta?",
-                "correct_answer": "42",
-                "wrong_answer1": "0",
-                "wrong_answer2": "1",
-                "wrong_answer3": "Nenhuma as anteriores"
+                "question_text": "Quais as unidades de medida utilizadas para medir calor?",
+                "correct_answer": "Celsius e Joule",
+                "wrong_answer1": "Kcal e Joule",
+                "wrong_answer2": "Celsius e calorias",
+                "wrong_answer3": "Calorias e Joule"
+            },
+			{
+                "question_text": "Qual o nome do processo de transmissão de calor por contacto direto?",
+                "correct_answer": "Condução",
+                "wrong_answer1": "Translação",
+                "wrong_answer2": "Combustão",
+                "wrong_answer3": "Convecção"
+            },
+			{
+                "question_text": "Um pedaço de tecido vermelho, quando observado numa sala iluminada com luz verde, parece:",
+                "correct_answer": "Amarelo",
+                "wrong_answer1": "Preto",
+                "wrong_answer2": "Azul",
+                "wrong_answer3": "Vermelho"
             }
         ],
         
@@ -88,36 +130,64 @@ perguntas = {
         
         "matematica": [
             {
-                "question_text": "Qual é a resposta?",
-                "correct_answer": "42",
-                "wrong_answer1": "0",
-                "wrong_answer2": "1",
-                "wrong_answer3": "Nenhuma as anteriores"
+                "question_text": "Quatro pessoas candidataram-se ao estágio de verão da Whitesmith. Se a empresa não gostar de nenhum, quantos estagiários conseguirão o lugar?",
+                "correct_answer": "0",
+                "wrong_answer1": "1",
+                "wrong_answer2": "4",
+                "wrong_answer3": "Nenhuma das anteriores"
             },
             {
-                "question_text": "Qual é a resposta?",
-                "correct_answer": "42",
-                "wrong_answer1": "0",
+                "question_text": "Se dividirem o número de sofás do office da Whitesmith por 2. Qual é o resultado?",
+                "correct_answer": "O office não tem sofás",
+                "wrong_answer1": "3",
                 "wrong_answer2": "1",
-                "wrong_answer3": "Nenhuma as anteriores"
+                "wrong_answer3": "Não me façam contar todos os sofás"
+            },
+			{
+                "question_text": "(Lógica) Se usares Comic Sans MS, o que é mais provável de acontecer?",
+                "correct_answer": "Ser gozado pelos designers",
+                "wrong_answer1": "Ser bem sucedido",
+                "wrong_answer2": "Não sei, ninguém vai notar",
+                "wrong_answer3": "Esta opção é errada!"
+            },
+			{
+                "question_text": "Quantas cadeiras vermelhas estão na sala onde te encontras?",
+                "correct_answer": "7",
+                "wrong_answer1": "3",
+                "wrong_answer2": "1",
+                "wrong_answer3": "Não há cadeiras vermelhas"
             }
         ]
     },
     "year_12": {
         "fisica": [
-            {
-                "question_text": "Qual é a resposta?",
-                "correct_answer": "42",
-                "wrong_answer1": "0",
-                "wrong_answer2": "1",
-                "wrong_answer3": "Nenhuma as anteriores"
+                        {
+                "question_text": "Qual é a altura do CEO da Whitesmith?",
+                "correct_answer": "Nenhuma das opções anteriores",
+                "wrong_answer1": "1.42m",
+                "wrong_answer2": "1.38m",
+                "wrong_answer3": "1.27m"
             },
             {
-                "question_text": "Qual é a resposta?",
-                "correct_answer": "42",
-                "wrong_answer1": "0",
-                "wrong_answer2": "1",
-                "wrong_answer3": "Nenhuma as anteriores"
+                "question_text": "Quais as unidades de medida utilizadas para medir calor?",
+                "correct_answer": "Celsius e Joule",
+                "wrong_answer1": "Kcal e Joule",
+                "wrong_answer2": "Celsius e calorias",
+                "wrong_answer3": "Calorias e Joule"
+            },
+			{
+                "question_text": "Qual o nome do processo de transmissão de calor por contacto direto?",
+                "correct_answer": "Condução",
+                "wrong_answer1": "Translação",
+                "wrong_answer2": "Combustão",
+                "wrong_answer3": "Convecção"
+            },
+			{
+                "question_text": "Um pedaço de tecido vermelho, quando observado numa sala iluminada com luz verde, parece:",
+                "correct_answer": "Amarelo",
+                "wrong_answer1": "Preto",
+                "wrong_answer2": "Azul",
+                "wrong_answer3": "Vermelho"
             }
         ],
         
@@ -140,18 +210,32 @@ perguntas = {
         
         "matematica": [
             {
-                "question_text": "Qual é a resposta?",
-                "correct_answer": "42",
-                "wrong_answer1": "0",
-                "wrong_answer2": "1",
-                "wrong_answer3": "Nenhuma as anteriores"
+                "question_text": "Quatro pessoas candidataram-se ao estágio de verão da Whitesmith. Se a empresa não gostar de nenhum, quantos estagiários conseguirão o lugar?",
+                "correct_answer": "0",
+                "wrong_answer1": "1",
+                "wrong_answer2": "4",
+                "wrong_answer3": "Nenhuma das anteriores"
             },
             {
-                "question_text": "Qual é a resposta?",
-                "correct_answer": "42",
-                "wrong_answer1": "0",
+                "question_text": "Se dividirem o número de sofás do office da Whitesmith por 2. Qual é o resultado?",
+                "correct_answer": "O office não tem sofás",
+                "wrong_answer1": "3",
                 "wrong_answer2": "1",
-                "wrong_answer3": "Nenhuma as anteriores"
+                "wrong_answer3": "Não me façam contar todos os sofás"
+            },
+			{
+                "question_text": "(Lógica) Se usares Comic Sans MS, o que é mais provável de acontecer?",
+                "correct_answer": "Ser gozado pelos designers",
+                "wrong_answer1": "Ser bem sucedido",
+                "wrong_answer2": "Não sei, ninguém vai notar",
+                "wrong_answer3": "Esta opção é errada!"
+            },
+			{
+                "question_text": "Quantas cadeiras vermelhas estão na sala onde te encontras?",
+                "correct_answer": "7",
+                "wrong_answer1": "3",
+                "wrong_answer2": "1",
+                "wrong_answer3": "Não há cadeiras vermelhas"
             }
         ]
     }
