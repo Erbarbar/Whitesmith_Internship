@@ -107,6 +107,7 @@ function showQuestions(option){
 					}
 				}else{
 					document.getElementById("hiddenT").innerHTML = "Well, well, well! We have a Einstein here";
+					document.getElementById("hidden").style.display = "block";
 					document.getElementById("question1").innerHTML = "";
 					document.getElementById("tabela").innerHTML = "";
 				}
@@ -143,6 +144,8 @@ function showQuestions(option){
 					}
 				}else{
 					document.getElementById("hiddenT").innerHTML = "Today is not your day! You lose";
+					document.getElementById("hidden").style.display = "block";
+
 					document.getElementById("question1").innerHTML = "";
 					document.getElementById("tabela").innerHTML = "";
 					
