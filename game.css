@@ -2,7 +2,13 @@
     //border: solid black 1px;
 }
 
+body{
+    position: relative;
+}
+
 #question{
+
+    z-index: 1;
     margin-top: 2em;
     margin-left: 2em;
     width: 65%;
@@ -15,5 +21,106 @@
 #question p{
     font-size: 20px;
     margin: 1em;
+}
+
+#player{
+    margin-left: 15em;
+    margin-top: 2em; 
+    width: 15em;
+    height: 15em;
+    background-color: green;
+}
+
+#boss{
+    position: absolute;
+    margin-left: 64em;
+    margin-top: -40em; 
+    width: 30em;
+    height: 30em;
+    background-color: red;
+}
+
+#answers{
+    position: relative;
+    background-color: #eee;
+    width: 90%;
+    margin-left: 2em;
+    height: 10em;
+}
+
+#answers tr{
+    margin-bottom: 2em;
+    //background-color: green;
+}
+/*
+#answers tr td{
+    border: solid black 1px;
+    border-radius: 0.2em;
+    width: 42em;
+    height: 2em;
+    padding: 1em;
+    background-color: #ccc;
+}
+*/
+#answers tr td{
+    padding: 1em;
+    width: 45%;
+}
+
+#answers tr td link0{
+    background-color: gray;
+    padding: 1em;
+}
+#answers tr td link0 a{
+    background-color: gray;
+    padding: 1em;
+}
+
+#answers tr td link0 :hover{
+    /cursor: pointer;
+}
+
+#answers tr td link1 a{
+}
+
+#answers tr td link2{
+}
+
+#answers tr td link3{
+}
+
+#menu_button{
+    margin-left: 3em;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+a{
+    text-decoration: none;
+    background-color: #ccc;
+    border-radius: 5em;
+    margin: 1em;
+    padding: 1em;
+}
+
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: yellow;
+}
+
+/* selected link */
+a:active {
+    color: black;
 }
 
