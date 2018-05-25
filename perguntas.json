@@ -9,7 +9,7 @@ perguntas = {
                 "wrong_answer3": "Nenhuma as anteriores"
             },
             {
-                "question_text": "Qual é a resposta?",
+                "question_text": "Qual é a resposta?22",
                 "correct_answer": "42",
                 "wrong_answer1": "0",
                 "wrong_answer2": "1",
